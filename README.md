@@ -23,3 +23,8 @@ Start server:
 ```sh
 # Start server
 yarn start
+
+
+Endpoints:
+- `GET http://localhost:4040/api/health-check` - returns OK string
+- `GET http://localhost:4040/api/dummys` - returns array of objects
